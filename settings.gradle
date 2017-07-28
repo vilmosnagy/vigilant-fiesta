@@ -1,0 +1,5 @@
+rootProject.name = 'vigilant-fiesta'
+include 'transformator'
+include 'transformator:core'
+findProject(':transformator:core')?.name = 'core'
+
